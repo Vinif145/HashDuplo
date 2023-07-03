@@ -74,7 +74,7 @@ int main(int argc, char* argv[]){
     test_hash();
 
     thash h;
-    int nbuckets = 11148; //nbuckets+1
+    int nbuckets = 11148; //nbuckets+1 11.1149 (total * 2) -> Primo mais próximo
     hash_constroi(&h,nbuckets,get_key);
     
     
